@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://bbnaijaupdates.42web.io/` + encodeURI(path as string)
+					`bbnaijaupdates.42web.io/` + encodeURI(path as string)
 				}`,
 			},
 		};
